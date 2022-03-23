@@ -4,7 +4,7 @@ type ButtonProps = any;
 
 export const ButtonComp = (props: ButtonProps) => {
   return (
-    <Button onClick={props.onclick} size="lg" variant="dark">
+    <Button type={props.type} onClick={props.onclick} size="lg" variant="dark">
       {props.children}
     </Button>
   );
